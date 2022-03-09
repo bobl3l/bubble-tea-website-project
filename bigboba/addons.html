@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BIG BOBA Ordering Page</title>
+  
+</head>
+
+<style>
+
+  body {
+  background-image: url('https://media.istockphoto.com/vectors/vector-seamless-pattern-with-bubble-tea-in-plastic-cups-and-doodles-vector-id1273254729?k=20&m=1273254729&s=612x612&w=0&h=H8kLcd9Eup3rztMsu4eMhDlZOcu-uv7dI2u2k3L86eM=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content {
+  max-width: 5000px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  opacity: 0.85;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #361212;
+  background-color: #eff4c3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #f2d5c8}
+
+.button:active {
+  background-color: #f2d5c8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+p.round {
+  border: 6px solid #c17e2c;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+</style>
+</head>
+<body>
+  <center>
+
+<div class="content">
+ <h1><p style="font-family:Trebuchet MS; font-size: 35px; color:#c17e2c"><b>Confirm Your Order</b></p></h1>
+ <br> </br>
+<p class="round" style="font-family:Trebuchet MS; font-size: 20px; color:#c17e2c">Tea Bag</p>
+    <p style="font-family:Trebuchet MS; font-size: 15px; color:#c17e2c"> 
+    <u><b>ADD-ONs</b></u>
+    <input type='checkbox' name='id' value='Aloe Vera $1.50'/> Aloe Vera $1.50
+    <input type='checkbox' name='id' value='Coconut Jelly $1.50'/> Coconut Jelly $1.50
+    <input type='checkbox' name='id' value='Sakura Ai Yu Jelly $1.50'/> Sakura Ai Yu Jelly $1.50
+    <input type='checkbox' name='id' value='Brown Sugar Pearl $2.00'/> Brown Sugar Pearl $2.00
+    <input type='checkbox' name='id' value='White Pearl $2.00'/> White Pearl $2.00
+    <input type='checkbox' name='id' value='CheezHO $4.00'/> CheezHO $4.00
+    </p>
+
+      <form method="get" action="bigbobaaddons">
+      <input type="submit" class="button" value="Confirm" >
+      </form>
+</center>
+</div>
+</body>
+</html>
